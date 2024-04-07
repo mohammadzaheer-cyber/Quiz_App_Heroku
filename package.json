@@ -4,10 +4,7 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-        "build": "tsc --noEmitOnError",
-        "start": "nodemon ./app.js",
-        "start:ts": "ts-node ./src/app.ts",
-        "dev": "node ./app.js"
+        "start": "nodemon ./app.js"
     },
     "author": "",
     "license": "ISC",
