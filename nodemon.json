@@ -1,0 +1,7 @@
+{
+    "env": {
+        "CONNECTION_STRING": "mongodb+srv://Zaheer:ZahEEr@cluster0.kmualmb.mongodb.net/quizappdb?retryWrites=true&w=majority",
+        "PORT": 8001,
+        "NODE_ENV": "development"
+    }
+}
