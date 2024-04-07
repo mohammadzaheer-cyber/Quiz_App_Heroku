@@ -5,9 +5,9 @@
     "main": "app.js",
     "scripts": {
         "build": "tsc --noEmitOnError",
-        "start": "node ./app.js",
+        "start": "nodemon ./app.js",
         "start:ts": "ts-node ./src/app.ts",
-        "dev": "nodemon ./app.js"
+        "dev": "node ./app.js"
     },
     "author": "",
     "license": "ISC",
