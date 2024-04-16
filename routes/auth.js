@@ -42,5 +42,5 @@ router.post('/', [
         return true;
     })
 ], auth_1.registerUser);
-router.get('/login', auth_1.loginUser);
+router.post('/login', auth_1.loginUser);
 exports.default = router;
